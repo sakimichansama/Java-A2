@@ -25,7 +25,7 @@ public class Employee extends Person {
     public void setPosition(String position) {
         if (position == null || position.trim().isEmpty()) { //trim() to ensure that there are no extra spaces before or after
             throw new IllegalArgumentException("Position cannot be null or empty.");
-        }
+        } //Typically inside the method, this exception is thrown using throw new IllegalArgumentException(‘ErrorMessage’); if the parameter does not satisfy the condition.
         this.position = position;
     }
 
@@ -33,7 +33,7 @@ public class Employee extends Person {
         return salary;
     }
 
-    public void setSalary(double salary) {
+    public void setSalary(double salary) { //double is a primitive data type used to represent double-precision floating-point numbers. It is typically used to store numbers with fractional parts and can handle larger or more precise values.
         if (salary < 0) {
             throw new IllegalArgumentException("Salary must be a non-negative number.");
         }
