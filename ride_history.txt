@@ -1,0 +1,5 @@
+Visitor: Name = Nehemia, Age = 25, Gender = Female, Ticket Type = Normal, Visit Duration = 120 minutes
+Visitor: Name = Jason, Age = 30, Gender = Male, Ticket Type = VIP, Visit Duration = 180 minutes
+Visitor: Name = Tom, Age = 22, Gender = Male, Ticket Type = Normal, Visit Duration = 90 minutes
+Visitor: Name = Sherly, Age = 27, Gender = Male, Ticket Type = Normal, Visit Duration = 150 minutes
+Visitor: Name = Ben, Age = 29, Gender = Female, Ticket Type = Normal, Visit Duration = 60 minutes
