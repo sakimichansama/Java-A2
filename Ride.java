@@ -171,7 +171,7 @@ public class Ride implements RideInterface {
             System.out.println(visitor.getName() + ", Ticket Type: " + visitor.getTicketType() + ", Visit Duration: " + visitor.getVisitDuration());
         }
     }
-    // 新增导出乘坐历史到文件的方法
+    // New method to export ride history to file
     public void exportRideHistory(String fileName) {
         BufferedWriter writer = null; // Declares a variable writer of type BufferedWriter and initialises the writer variable to null.
         try {
